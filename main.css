@@ -1,0 +1,158 @@
+body{
+    font-family: 'Raleway', sans-serif;
+    background-color: #080808;
+}
+
+#cabecalho{
+    background-color: #080808;
+}
+
+#cabecalho .navbar-brand{
+    color: #ee7348;
+}
+
+#cabecalho .nav-link{
+    color: #fff;
+}
+
+#cabecalho .nav-link.active{
+    border-bottom: 1px solid #ee7348;
+    background: none;
+    border-radius: 0;
+}
+
+#cabecalho .nav-link:hover{
+    border-bottom: 1px solid #ee7348;
+    border-radius: 0;
+}
+
+.sobre-mim{
+    background-color: #ee7348;
+    padding: 1em;
+    border-radius: 0.5em;
+    text-decoration: none;
+    color: #fff;
+}
+
+.texto-home p,h1{
+    color: #fff;
+}
+
+.color-selection{
+    color: #ee7348;
+}
+
+#home .container{
+    padding: 6em 0 7em 0;
+}
+
+#sobre{
+    background-color: #ee7348;
+}
+
+#sobre h1{
+    border-bottom: 1px solid #fff;
+    padding: 0.5em 0;
+    margin: 0.5em 0;
+}
+
+#sobre p{
+    color: #fff;
+}
+
+#servicos .section-title{
+    border-bottom: 1px solid #fff;
+}
+
+#servicos h2,p{
+    color: #fff;
+}
+
+.servico-texto{
+    background-color: #ee7348;
+    border-radius: 0.5em;
+}
+
+.nav-servicos{
+    border-bottom: 1px solid #fff;
+}
+
+.service-title{
+    color: #ee7348;
+}
+
+.nav-servicos button{
+    border: 1px solid #ee7348;
+    background-color: #ee7348;
+    background: none;
+    color: #ee7348;
+}
+
+.nav-servicos .nav-link.active{
+    background-color: #ee7348;
+    color: #080808;
+}
+
+.nav-servicos button:hover{
+    border: 1px solid #a84a28;
+    background-color: #a84a28;
+    color: #ffffff;
+}
+
+#contato{
+    background-color: #ee7348;
+}
+
+.email-icon{
+    font-size: 20em;
+    color: #fff;
+}
+
+#contato .btn{
+    background-color: #080808;
+    color: #fff;
+}
+
+#contato .btn:hover{
+    background-color: #a84a28;
+}
+
+.footer a{
+    color: #fff;
+}
+
+
+@media (max-width: 767px){
+    #contato i{
+        display: none;
+    }
+
+    #home .row{
+        margin: 0;
+        padding: 0;
+    }
+
+    #cabecalho .nav-link{
+        padding: 0;
+        margin-bottom: 0.5em;
+    }
+
+    #home .container,
+    #home .container .row{
+        margin-top: 0;
+        margin-bottom: 0;
+        padding-bottom: 0;
+        padding-top: 0;
+        padding: 0px 0px;
+        margin: 0px 0px;
+    }
+
+    #home img{
+        width: 100%;
+        justify-content: center;
+        margin-top: 2em;
+        margin-bottom: 2em;
+    }
+
+
+}

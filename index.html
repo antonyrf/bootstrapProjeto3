@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Antony | Front End Developer</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top-lg pt-1" id="cabecalho">
+        <div class="container">
+            <h1 class="navbar-brand m-0 fs-4">antony</h1>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item">
+                        <a href="#home" class="nav-link fs-5">home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#sobre" class="nav-link fs-5">sobre</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#servicos" class="nav-link fs-5">serviços</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contato" class="nav-link fs-5">contato</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="cabecalho" data-bs-smooth-control="true">
+        <section id="home">
+            <div class="container">
+                <div class="row d-flex align-items-center py-lg-5 my-lg-5">
+                    <div class="col-md-6 texto-home">
+                        <h2 class="section-title fw-bold"><span class="color-selection">Hello There!</span></h2>
+                        <h1 class="section-title fw-bold">Sou um <span class="color-selection">Desenvolvedor Front-End</span></h1>
+                        <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            A deserunt mollitia facere saepe dicta exercitationem 
+                            distinctio neque explicabo ratione delectus accusantium quam 
+                            voluptates excepturi dolor facilis amet perferendis, 
+                            laudantium consequuntur!
+                        </p>
+                        <a href="sobre" class="sobre-mim">
+                            <i class="bi bi-file-person pe-2"></i>
+                            Sobre mim</a>
+                    </div>
+                    <div class="col-md-6 d-flex justify-content-end">
+                        <img src="images/antony.png" class="w-60" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="sobre">
+            <div class="container">
+                <div class="row py-lg-5">
+                    <div class="col-md-12 my-lg-5">
+                        <h1 class="section-title fw-bold pt-lg-5">sobre mim!</h1>
+                        <p class="fs-lg-5 fs-sm-1">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Minima dolorem corrupti atque pariatur possimus at accusamus 
+                            magnam eveniet molestias nostrum unde alias, quo error itaque 
+                            accusantium eligendi rem exercitationem maxime.
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                            Ratione sequi officiis fuga reiciendis aperiam quia reprehenderit 
+                            aliquid. Optio eos dolorum necessitatibus id minima soluta 
+                            consectetur dolorem, doloremque voluptates beatae sed!
+                        </p>
+                        <p class="fs-lg-5 fs-sm-1">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Minima dolorem corrupti atque pariatur possimus at accusamus 
+                            magnam eveniet molestias nostrum unde alias, quo error itaque 
+                            accusantium eligendi rem exercitationem maxime.
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Non temporibus libero quae facere sapiente officiis? 
+                            Sequi iusto vel officia deserunt inventore ut, 
+                            assumenda ea obcaecati reiciendis tempore debitis fugiat nesciunt!
+                        </p>
+                        <p class="fs-lg-5 mb-5">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Minima dolorem corrupti atque pariatur possimus at accusamus 
+                            magnam eveniet molestias nostrum unde alias, quo error itaque 
+                            accusantium eligendi rem exercitationem maxime.
+                        </p>
+                        <h1 class="section-title fw-bold">carreira!</h1>
+                        <p class="fs-lg-5">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Minima dolorem corrupti atque pariatur possimus at accusamus 
+                            magnam eveniet molestias nostrum unde alias, quo error itaque 
+                            accusantium eligendi rem exercitationem maxime.
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                            Ratione sequi officiis fuga reiciendis aperiam quia reprehenderit 
+                            aliquid. Optio eos dolorum necessitatibus id minima soluta 
+                            consectetur dolorem, doloremque voluptates beatae sed!
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="servicos">
+            <div class="container">
+                <div class="row">
+                    <h1 class="section-title fw-bold py-4 text-center mt-lg-5">serviços</h1>
+                </div>
+                <div class="row">
+                    <aside class="col-md-12 my-3 pb-4 d-flex justify-content-center nav-servicos">
+                        <nav class="nav nav-pills">
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#servico1" class="text-start nav-link active">servico1</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#servico2" class="text-start nav-link mx-3">servico2</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#servico3" class="text-start nav-link">servico3</button>
+                        </nav>
+                    </aside>
+                    <div class="col-md-12 my-lg-5">
+                        <div class="tab-content">
+                            <div class="tab-pane active mb-3" id="servico1">
+                                <div class="row d-flex align-items-center">
+                                    <div class="col-md-7">
+                                        <h1 class="service-title fw-bold fs-1">Serviço1</h1>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio autem sint quia, repudiandae corporis dolores eaque rerum aperiam deserunt possimus soluta reiciendis nostrum quidem, expedita magnam laboriosam animi. Exercitationem, incidunt?
+                                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus maxime quos animi ex laboriosam itaque soluta necessitatibus ad possimus fugiat earum veritatis, obcaecati neque consequatur qui dicta, rerum officia minus.
+                                        </p>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio autem sint quia, repudiandae corporis dolores eaque rerum aperiam deserunt possimus soluta reiciendis nostrum quidem, expedita magnam laboriosam animi. Exercitationem, incidunt?
+                                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus maxime quos animi ex laboriosam itaque soluta necessitatibus ad possimus fugiat earum veritatis, obcaecati neque consequatur qui dicta, rerum officia minus.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-5">
+                                        <img src="images/coding2.png" class="w-100" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane mb-3" id="servico2">
+                                <div class="row d-flex align-items-center">
+                                    <div class="col-md-7">
+                                        <h1 class="service-title fw-bold fs-1">Serviço2</h1>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio autem sint quia, repudiandae corporis dolores eaque rerum aperiam deserunt possimus soluta reiciendis nostrum quidem, expedita magnam laboriosam animi. Exercitationem, incidunt?
+                                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus maxime quos animi ex laboriosam itaque soluta necessitatibus ad possimus fugiat earum veritatis, obcaecati neque consequatur qui dicta, rerum officia minus.
+                                        </p>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio autem sint quia, repudiandae corporis dolores eaque rerum aperiam deserunt possimus soluta reiciendis nostrum quidem, expedita magnam laboriosam animi. Exercitationem, incidunt?
+                                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus maxime quos animi ex laboriosam itaque soluta necessitatibus ad possimus fugiat earum veritatis, obcaecati neque consequatur qui dicta, rerum officia minus.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-5">
+                                        <img src="images/coding2.png" class="w-100" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane mb-3" id="servico3">
+                                <div class="row d-flex align-items-center">
+                                    <div class="col-md-7">
+                                        <h1 class="service-title fw-bold fs-1">Serviço3</h1>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio autem sint quia, repudiandae corporis dolores eaque rerum aperiam deserunt possimus soluta reiciendis nostrum quidem, expedita magnam laboriosam animi. Exercitationem, incidunt?
+                                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus maxime quos animi ex laboriosam itaque soluta necessitatibus ad possimus fugiat earum veritatis, obcaecati neque consequatur qui dicta, rerum officia minus.
+                                        </p>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio autem sint quia, repudiandae corporis dolores eaque rerum aperiam deserunt possimus soluta reiciendis nostrum quidem, expedita magnam laboriosam animi. Exercitationem, incidunt?
+                                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus maxime quos animi ex laboriosam itaque soluta necessitatibus ad possimus fugiat earum veritatis, obcaecati neque consequatur qui dicta, rerum officia minus.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-5">
+                                        <img src="images/coding2.png" class="w-100" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contato">
+            <div class="container">
+                <div class="row">
+                    <h1 class="section-title mt-5">entre em contato!</h1>
+                </div>
+                <div class="row d-flex align-items-center pb-5">
+                    <div class="col-md-7">
+                        <form action="">
+                            <div>
+                                <input type="text" placeholder="nome completo" class="form-control mb-3">
+                            </div>
+                            <div>
+                                <input type="tel" placeholder="telefone" class="form-control mb-3">
+                            </div>
+                            <div>
+                                <input type="email" placeholder="email" class="form-control mb-3">
+                            </div>
+                            <div>
+                                <textarea id="mensagem" cols="90" rows="5" placeholder="sua mensagem" class="form-control mb-3"></textarea>
+                            </div>
+                            <button type="submit" class="btn">
+                                Enviar
+                            </button>
+                        </form>
+                    </div>
+                    <div class="col-md-5 d-flex justify-content-end">
+                        <i class="bi bi-envelope-arrow-up-fill email-icon"></i>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class="footer my-2 d-flex justify-content-center">
+            <a href="#">
+                <i class="bi bi-instagram"></i>
+            </a>
+            <a href="#">
+                <i class="bi bi-meta px-3"></i>
+            </a>
+            <a href="#">
+                <i class="bi bi-youtube"></i>
+            </a>
+        </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
